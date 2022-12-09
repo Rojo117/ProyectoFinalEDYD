@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 int main ()
 {
     int opcionSwitch,opcionGeneros;
@@ -55,6 +54,7 @@ int main ()
                 printf("q: Agregar a la cola una cancion de la lista\n");
                 printf("r: Reproducir una cancion\n");
                 printf("Selecciona una opcion: ");
+                getchar();
                 scanf("%c",&opcionCanciones);
                 
                 switch (opcionCanciones)
@@ -89,6 +89,7 @@ int main ()
                 printf("r: Activar/desactivar Repeticion\n");
                 printf("s: Pausar/Continuar sonando\n");
                 printf("Selecciona una opcion: ");
+                getchar();
                 scanf("%c",&opcionReproductor);
 
                     switch (opcionReproductor)
